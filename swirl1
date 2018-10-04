@@ -1,0 +1,13 @@
+install.packages("swirl")
+
+library(swirl)
+install_from_swirl("Getting and Cleaning Data")
+install_from_swirl("Regression Models")
+swirl()
+
+mydf <- read.csv(path2csv, stringsAsFactors = FALSE)
+
+packageVersion("dplyr") 
+
+# check package version
+cran <- tbl_df(mydf)
